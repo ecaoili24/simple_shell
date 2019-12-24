@@ -38,20 +38,22 @@ gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
 
 ### List of Allowed Functions & System Calls
 
-* access (check real user's permissions for a file)
-* execve (execute program)
-* exit (cause normal process termination)
-* fflush (flush a stream)
-* fork (create a child process)
-* free (free dynamic memory)
-* getline (delimited string input)
-* isatty (test whether a file descriptor refers to a terminal)
-* malloc (allocate memory)
-* perror (print a system error message)
-* read (read from a file descriptor)
-* strtok (extract tokens from strings)
-* wait (wait for process to change state)
-* write (write to a file descriptor)
+| Function and/or System Call | Description |
+| --- | --- |
+| access | check real user's permissions for a file |
+| execve | execute program |
+| exit | cause normal process termination |
+| fflush | flush a stream |
+| fork | create a child process |
+| free | free dynamic memory |
+| getline | delimited string input |
+| isatty | test whether a file descriptor refers to a terminal |
+| malloc | allocate memory |
+| perror | print a system error message |
+| read | read from a file descriptor |
+| strtok | extract tokens from strings |
+| wait | wait for process to change state |
+| write | write to a file descriptor |
 
 ### Usage
 
