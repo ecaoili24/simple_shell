@@ -16,6 +16,9 @@ program runs based on bash commands obtained from the input stream by the user.
 Any text seperated by a single space is considered to be an argument. The
 respective command typed by the user is then executed as if in a UNIX shell.
 
+To learn more about how the Shell works, here is our published article on The Startup via Medium:
+[The Command Line with ls -l](https://medium.com/swlh/the-command-line-with-ls-l-6efaf01cc4c0?)
+
 ### Requirements
 
 * Allowed editors: vi, vim, or emacs
